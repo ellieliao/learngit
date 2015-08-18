@@ -3,7 +3,7 @@ from selenium import webdriver
 import unittest, time, csv
 from testcase import login, update_pwd
 
-
+# 登陆测试类
 class Login(unittest.TestCase):
     def setUp(self):
         self.driver = webdriver.Firefox()
