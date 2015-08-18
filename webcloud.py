@@ -1,8 +1,8 @@
-# -*- encoding:utf-8 -*-
+﻿# -*- encoding:utf-8 -*-
 from selenium import webdriver
 import unittest, time, csv
 from testcase import login, update_pwd
-
+#添加备注
 # 登陆测试类
 class Login(unittest.TestCase):
     def setUp(self):
@@ -49,7 +49,7 @@ class Login(unittest.TestCase):
         self.driver.quit()
         self.assertEqual([], self.verificationErrors)
 
-
+#执行用例
 if __name__ == "__main__":
     unittest.main()
 
