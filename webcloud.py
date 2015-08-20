@@ -3,6 +3,8 @@ from selenium import webdriver
 import unittest, time, csv
 from testcase import login, update_pwd
 
+
+# 再提交一次pycharm
 # 登陆测试类
 class Login(unittest.TestCase):
     def setUp(self):
@@ -52,4 +54,3 @@ class Login(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-
